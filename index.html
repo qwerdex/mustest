@@ -8,7 +8,6 @@
   <head>
     <title>{{ site.name }}</title>
     <link href="burt.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="extras/highlight.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <span id="logo">}</span>
@@ -63,10 +62,9 @@
 
       <p>GitHub pages: <a href="https://github.com/mustache/mustache.github.com">https://github.com/mustache/mustache.github.com</a></p>
     </div>
-
+    {% include test.mustache %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script src="extras/mustache.js"></script>
-    <script src="extras/highlight.js"></script>
     <script src="tom.js"></script>
   </body>
 </html>
