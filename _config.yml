@@ -1,3 +1,4 @@
 name: '{{ mustache }}'
 markdown: redcarpet
 email: 'hello@dentalagency.ru'
+kusok: '<p>Trodjik-less templates.</p>'
