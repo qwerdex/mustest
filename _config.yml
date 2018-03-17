@@ -1,2 +1,3 @@
 name: '{{ mustache }}'
 markdown: redcarpet
+mail: 'hello@dentalagency.ru'
